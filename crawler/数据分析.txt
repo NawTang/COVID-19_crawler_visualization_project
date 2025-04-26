@@ -1,0 +1,59 @@
+国内31省的各大区/市的今日数据：
+https://api.inews.qq.com/newsqa/v1/query/inner/publish/modules/list?modules=statisGradeCityDetail,diseaseh5Shelf\
+confirmAdd：新增确诊
+confirm：累计确诊
+nowConfirm：现有确诊
+
+
+国内各省+各市详细数据：
+https://api.inews.qq.com/newsqa/v1/query/inner/publish/modules/list?modules=statisGradeCityDetail,diseaseh5Shelf
+(包括中国总数据在内）
+总数据：
+    nowConfirm：现存确诊
+    heal：累计治愈
+    dead：累计死亡
+    confirm：累计确诊
+
+各省数据：
+    wzz_add：今日新增无症状
+    heal：累计治愈
+    dead：累计死亡
+    wzz：本土无症状
+    mediumRiskAreaNum：中风险地区数量
+    highRiskAreaNum：高风险地区数量
+
+
+
+中国两月数据：
+https://api.inews.qq.com/newsqa/v1/query/inner/publish/modules/list?modules=chinaDayList,chinaDayAddList,nowConfirmStatis,provinceCompare
+chinaDayAddList：两月的每日新增数据（共60条）
+    localConfirmadd：本土新增确诊（不含境外输入+港澳台
+    confirm：新增确诊（含港澳台
+    infect：新增无症状感染者
+    dead：新增死亡
+    heal：新增治愈
+    localConfirmadd：本土新增无症状感染者
+    healRate：当日治愈率
+    deadRate：当日死亡率
+    date：日期
+chinaDayList：两月每日数据（共60条）
+    localConfirm：本土确诊
+    heal：治愈
+    healRate：总治愈率
+    deadRate：总死亡率
+
+
+
+海外各国数据：
+https://api.inews.qq.com/newsqa/v1/automation/modules/list?modules=FAutoCountryConfirmAdd,WomWorld,WomAboard
+WomAboard：海外各国详细数据
+    name：国名
+    confirmAdd：新增确诊
+    nowConfirm：现有确诊
+    continent：所在洲
+    confirm：累计确诊
+    deadCompare：较上日死亡数
+    healCompare：较上日死亡数
+
+
+
