@@ -2,7 +2,7 @@
 Naw's undergraduate graduation project
 ## Memo
 This project is made in 2022, and the webpage crawled is gone.
-So it's just a record for crawler(web scraping) and pyChart.
+So it's just a record for **crawler(web scraping)**, **pySparkSQL** and **pyChart**.
 
 See u in the future. 🍺
 
